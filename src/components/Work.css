@@ -1,0 +1,27 @@
+.work {
+    margin: 120px auto 0 auto;
+    width: 600px;
+    border: 2px solid black;
+    height: 500px;
+    padding: 10px;
+}
+
+.skills {
+    display: flex;
+    margin-top: 10px;
+    width: 530px;
+    height: 300px;
+    border: 2px solid red;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+
+.skill {
+    border: 1px solid blue;
+    display: flex;
+    align-items: center;
+    margin-right: 10%;
+    padding-left: 3px;
+    height: 50px;
+    list-style-type: circle;
+}
