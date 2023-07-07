@@ -14,6 +14,7 @@ const Work = () => {
                   height="40"
                   src="https://img.icons8.com/color/40/c-plus-plus-logo.png"
                   alt="c-plus-plus-logo"
+                  loading="lazy"
                 />
                 C++
               </div>
@@ -25,6 +26,7 @@ const Work = () => {
                   height="38"
                   src="https://img.icons8.com/color/38/javascript--v1.png"
                   alt="javascript--v1"
+                  loading="lazy"
                 />
                 Javascript
               </div>
@@ -36,6 +38,7 @@ const Work = () => {
                   height="40"
                   src="https://img.icons8.com/bubbles/40/react.png"
                   alt="react"
+                  loading="lazy"
                 />
                 React Js
               </div>
@@ -49,6 +52,7 @@ const Work = () => {
                   height="39"
                   src="https://img.icons8.com/fluency/39/node-js.png"
                   alt="node-js"
+                  loading="lazy"
                 />
                 Node Js
               </div>
@@ -60,6 +64,7 @@ const Work = () => {
                   height="38"
                   src="https://img.icons8.com/color/38/html-5--v1.png"
                   alt="html-5--v1"
+                  loading="lazy"
                 />
                 HTML
               </div>
@@ -71,6 +76,7 @@ const Work = () => {
                   height="38"
                   src="https://img.icons8.com/color/38/mongodb.png"
                   alt="mongodb"
+                  loading="lazy"
                 />
                 MongoDB
               </div>
@@ -84,6 +90,7 @@ const Work = () => {
                   height="38"
                   src="https://img.icons8.com/color/38/css3.png"
                   alt="css3"
+                  loading="lazy"
                 />
                 CSS
               </div>
@@ -95,6 +102,7 @@ const Work = () => {
                   height="30"
                   src="https://img.icons8.com/ios-filled/30/jquery.png"
                   alt="jquery"
+                  loading="lazy"
                 />
                 jQuery
               </div>
@@ -106,6 +114,7 @@ const Work = () => {
                   height="40"
                   src="https://img.icons8.com/external-bearicons-blue-bearicons/40/external-SQL-file-extension-bearicons-blue-bearicons.png"
                   alt="external-SQL-file-extension-bearicons-blue-bearicons"
+                  loading="lazy"
                 />
                 SQL
               </div>
