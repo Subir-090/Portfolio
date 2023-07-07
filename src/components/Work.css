@@ -1,9 +1,10 @@
 .work {
     margin: auto;
     margin-top: 120px;
-    width: 50%;
+    margin-bottom: 30px;
+    width: 70%;
     border: 1px solid black;
-    height: 400px;
+    height: auto;
     padding: 20px;
   }
   
@@ -14,7 +15,7 @@
     align-items: flex-start;
     flex-wrap: wrap;
     border: 2px solid black;
-    width: 85%;
+    width: 60%;
   }
   
   .list li {
@@ -34,5 +35,25 @@
   
   .skill {
       margin-bottom: 5px;
+  }
+  
+  .experience {
+      margin-top: 30px;
+      text-align: center;
+  }
+  
+  .experience h2, h3 {
+      text-align: left;
+  }
+  
+  .project {
+      margin-top: 20px;
+  }
+  
+  .work-demo {
+      width: 60%;
+      height: 450px;
+      border: 2px solid black;
+      margin-bottom: 20px;
   }
   

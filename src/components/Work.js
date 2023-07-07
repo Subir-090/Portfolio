@@ -122,6 +122,46 @@ const Work = () => {
           </ul>
         </div>
       </section>
+
+      <section className="experience">
+        <h2>Experience</h2>
+
+        <section className="project">
+          <h3>1&#41; QR Code</h3>
+          <iframe
+            src="https://subir-qr-code.netlify.app/"
+            className="work-demo"
+            title="qr-code"
+          ></iframe>
+        </section>
+
+        <section className="project">
+          <h3>2&#41; Know Your Shubh College</h3>
+          <iframe
+            src="https://know-your-shubh-college.netlify.app/"
+            className="work-demo"
+            title="college"
+          ></iframe>
+        </section>
+
+        <section className="project">
+          <h3>3&#41; Summary Component</h3>
+          <iframe
+            src="https://subir-summary-component.netlify.app/"
+            className="work-demo"
+            title="qr-code"
+          ></iframe>
+        </section>
+
+        <section className="project">
+          <h3>4&#41; QR Code</h3>
+          <iframe
+            src="https://subir-qr-code.netlify.app/"
+            className="work-demo"
+            title="qr-code"
+          ></iframe>
+        </section>
+      </section>
     </div>
   );
 };
