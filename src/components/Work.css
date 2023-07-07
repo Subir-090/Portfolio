@@ -1,23 +1,38 @@
 .work {
     margin: auto;
     margin-top: 120px;
-    width: 60%;
+    width: 50%;
     border: 1px solid black;
     height: 400px;
-}
-
-.list {
+    padding: 20px;
+  }
+  
+  .list {
     padding: 20px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: flex-start;
     flex-wrap: wrap;
-}
-
-.sub-lists {
-    border: 1px solid red;
-}
-
-.skill {
-    
-}
+    border: 2px solid black;
+    width: 85%;
+  }
+  
+  .list li {
+      list-style-type: none;
+  }
+  
+  .sub-lists {
+    /* border: 1px solid red; */
+    padding: 10px;
+    margin: 5px;
+  }
+  
+  .content {
+      display: flex;
+      align-items: center;
+  }
+  
+  .skill {
+      margin-bottom: 5px;
+  }
+  
