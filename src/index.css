@@ -10,5 +10,17 @@
 }
 
 body {
-  background-color: #ABC4AA;
+  background-color: #abc4aa;
+}
+
+@media (max-width: 800px) {
+  html {
+    font-size: 90%;
+  }
+}
+
+@media (max-width: 700px) {
+  html {
+    font-size: 80%;
+  }
 }
