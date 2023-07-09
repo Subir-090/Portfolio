@@ -1,49 +1,41 @@
 .about {
-  margin: 9.375rem auto 0 auto;
-  display: flex;
-  width: 46.875rem;
-  height: 25rem;
-  align-items: center;
-  padding: 0.625rem;
-  border: 0.125rem solid black;
-  font-size: 1.25rem;
+    margin: 150px auto 0 auto;
+    display: flex;
+    width: 750px;
+    height: 400px;
+    align-items: center;
+    padding: 10px;
+    border: 2px solid black;
+    font-size: 20px;
 }
 
-.image img {
-  width: 12.5rem;
-  aspect-ratio: 1/1;
-  border-radius: 50%;
+.image img{
+    width: 200px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
 }
 
-.image {
-  border-radius: 50%;
-}
-
-.loading {
-  background: transparent url("../../public/assets/icons8-spinner.gif") center
-    no-repeat;
-  background-size: 3.125rem 3.125rem;
-}
 
 .about-table {
-  padding-left: 2.5rem;
+    padding-left: 40px;
 }
 
 .about-table th {
-  text-align: left;
-  padding: 0.625rem;
-  padding-right: 1.875rem;
+    text-align: left;
+    padding: 10px;
+    padding-right: 30px;
 }
 
 @media (max-width: 700px) {
-  .about {
-    flex-direction: column;
-    width: 22rem;
-    height: auto;
-    font-size: 1.2rem;
-    margin-top: 3rem;
-  }
-  .about-table {
-    padding: 0;
-  }
+    .about {
+        flex-direction: column;
+        width: 310px;
+        height: auto;
+        font-size: 15px;
+        margin-top: 40px;
+        /* padding: 5px; */
+    }
+    .about-table {
+        padding: 0;
+    }
 }

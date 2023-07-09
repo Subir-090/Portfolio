@@ -3,8 +3,8 @@ import "./About.css";
 const About = () => {
   return (
     <div className="about">
-      <div className="image loading">
-        <img loading="lazy" src="https://shorturl.at/nwQ06" alt="profile-img" />
+      <div className="image">
+        <img loading="lazy" src="https://tinyurl.com/53sy5tjr" alt="profile-img" />
       </div>
       <table className="about-table">
         <tbody>
