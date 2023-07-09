@@ -1,9 +1,9 @@
 .work {
   margin: auto;
-  margin-top: 7.5rem;
+  margin-top: 1rem;
   margin-bottom: 1.875rem;
   width: 70%;
-  border: 0.0625rem solid black;
+  /* border: 0.0625rem solid black; */
   height: auto;
   padding: 1.25rem;
 }
@@ -54,7 +54,7 @@
 
 .work-demo {
   width: 37.9375rem;
-  height: 28.125rem;
+  aspect-ratio: 3/2;
   border: 0.125rem solid black;
   border-radius: 0.625rem;
   margin-bottom: 1.25rem;

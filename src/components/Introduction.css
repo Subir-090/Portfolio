@@ -1,0 +1,20 @@
+.introduction {
+    display: flex;
+    margin-top: 6rem;
+    height: 500px;
+    width: 100%;
+    background-color: #A0D8B3;
+    color: rgb(66, 66, 66);
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.introduction .left p {
+    font-size: 3rem;
+}
+
+.introduction .right img {
+    width: 200px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+}
