@@ -32,6 +32,7 @@
 .content {
   display: flex;
   align-items: center;
+  font-size: 1.5625rem;
 }
 
 .img-container {
@@ -56,7 +57,7 @@
   width: 37.9375rem;
   aspect-ratio: 3/2;
   border: 0.125rem solid black;
-  border-radius: 0.625rem;
+  border-radius: .625rem;
   margin-bottom: 1.25rem;
   margin-top: 1.25rem;
 }
