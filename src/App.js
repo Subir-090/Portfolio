@@ -5,6 +5,7 @@ import Work from "./components/Work";
 import About from "./components/About";
 import Resume from "./components/Resume";
 import Introduction from "./components/Introduction";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/about" element={<About />}/>
         <Route path="/resume" element={<Resume />}/>
       </Routes>
+      <Footer />
     </BrowserRouter>
   );
 }

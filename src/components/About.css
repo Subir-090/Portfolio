@@ -1,11 +1,13 @@
 .about {
-  margin: 1rem auto 0 auto;
+  margin: auto;
+  margin-top: 1rem;
+  margin-bottom: 1.875rem;
   display: flex;
   width: 46.875rem;
   height: 25rem;
   align-items: center;
-  padding: 0.625rem;
-  border: 0.125rem solid black;
+  padding: .625rem;
+  /* border: .125rem solid black; */
   font-size: 1.25rem;
 }
 
@@ -22,8 +24,8 @@
 }
 
 .loading {
-  background: rgb(196, 195, 195) url("../../public/assets/icons8-spinner.gif")
-    center no-repeat;
+  background: rgb(196, 195, 195) url("../../public/assets/icons8-spinner.gif") center
+    no-repeat;
   background-size: 3.125rem 3.125rem;
 }
 
@@ -37,15 +39,22 @@
   padding-right: 1.875rem;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 900px) {
   .about {
     flex-direction: column;
     width: 22rem;
     height: auto;
-    font-size: 1.2rem;
+    font-size: 1rem;
     margin-top: 3rem;
   }
   .about-table {
     padding: 0;
+  }
+}
+
+@media (max-width: 600px) {
+  .about {
+    width: 20rem;
+    font-size: 0.9rem;
   }
 }
