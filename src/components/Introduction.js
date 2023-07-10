@@ -4,43 +4,32 @@ import { useEffect, useRef } from "react";
 
 const Introduction = () => {
   const el = useRef("");
-  const el2 = useRef("");
-  useEffect(() => {
-    const typed1 = new Typed(el.current, {
-      strings: [" I am Subir Gupta."],
-      startDelay: 300,
-      typeSpeed: 50,
-      showCursor: false
-    });
-
-    // Destropying
-    return () => {
-      typed1.destroy();
-    };
-  }, []);
 
   useEffect(() => {
-    const typed2 = new Typed(el2.current, {
-      strings: [" I am a programmer."],
+    const typed = new Typed(el.current, {
+      strings: ["Subir Gupta.","a programmer."],
       startDelay: 300,
       typeSpeed: 50,
+      backSpeed: 50,
+      backDelay: 1000,
+      smartBackspace: true,
+      loop: true,
       showCursor: false
     });
 
     return () => {
-      typed2.destroy();
+      typed.destroy();
     };
   }, []);
 
+  
   return (
-    <div className="introduction">
+    <div className="introduction md-reverse">
       <div className="left">
-        <p>
-          &lt;p&gt;<span ref={el}></span>&lt;&#47;p&gt;
-        </p>
-        <p>
-          &lt;p&gt;<span ref={el2}></span>&lt;&#47;p&gt;
-        </p>
+        <div className="content md">
+          <p>I am</p>
+          <p className="special">&nbsp;<span ref={el}></span></p>
+        </div>
       </div>
       <div className="right">
         <img

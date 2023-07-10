@@ -1,7 +1,8 @@
 .introduction {
     display: flex;
     margin-top: 6rem;
-    height: 500px;
+    /* height: 500px; */
+    height: 31.25rem;
     width: 100%;
     background-color: #A0D8B3;
     color: rgb(66, 66, 66);
@@ -9,12 +10,41 @@
     align-items: center;
 }
 
+.introduction .left .special{
+    /* width: 342px; */
+    width: 19rem;
+}
+
 .introduction .left p {
     font-size: 3rem;
 }
 
+.introduction .left .content .special {
+    color: rgb(173, 113, 1);
+}
+
 .introduction .right img {
-    width: 200px;
+    /* width: 200px; */
+    width: 12.5rem;
     aspect-ratio: 1/1;
     border-radius: 50%;
+}
+
+.introduction .left .content {
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 800px) {
+    .md-reverse {
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+    .md {
+        flex-direction: column;
+    }
+    .content {
+        margin-top: .625rem;
+        text-align: center;
+    }
 }
