@@ -27,7 +27,7 @@ const Introduction = () => {
     <div className="introduction md-reverse">
       <div className="left">
         <div className="content md">
-          <p>I am</p>
+          <p>I&apos;m</p>
           <p className="special">&nbsp;<span ref={el}></span></p>
         </div>
       </div>
