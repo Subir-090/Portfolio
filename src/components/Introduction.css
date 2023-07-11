@@ -1,6 +1,6 @@
 .introduction {
     display: flex;
-    margin-top: 6rem;
+    /* margin-top: 6rem; */
     /* height: 500px; */
     height: 31.25rem;
     width: 100%;
@@ -19,7 +19,7 @@
     font-size: 3rem;
 }
 
-.introduction .left .content .special {
+.introduction .left .intro-content .special {
     color: rgb(173, 113, 1);
 }
 
@@ -30,7 +30,7 @@
     border-radius: 50%;
 }
 
-.introduction .left .content {
+.introduction .left .intro-content {
     display: flex;
     justify-content: center;
 }
@@ -43,8 +43,20 @@
     .md {
         flex-direction: column;
     }
-    .content {
+    .intro-content {
         margin-top: .625rem;
         text-align: center;
+    }
+}
+
+@media (max-width: 600px) {
+    .introduction .left p {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 400px) {
+    .introduction .left .special{
+        width: 18rem;
     }
 }
