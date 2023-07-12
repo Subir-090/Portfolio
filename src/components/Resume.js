@@ -9,8 +9,8 @@ const Resume = memo(() => {
   }, []);
 
   return (
-    <div className="resume">
-      <img src="/assets/CV.jpg" alt="cv-img" onMouseDown={handleMouseDown} />
+    <div className="resume loading">
+      <img src="/assets/CV.jpg" alt="cv-img" onMouseDown={handleMouseDown} loading="lazy"/>
     </div>
   );
 });
