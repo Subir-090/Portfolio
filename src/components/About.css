@@ -7,7 +7,6 @@
   height: 25rem;
   align-items: center;
   padding: .625rem;
-  /* border: .125rem solid black; */
   font-size: 1.25rem;
 }
 
@@ -23,14 +22,9 @@
   display: flex;
 }
 
-.loading {
-  background: rgb(196, 195, 195) url("../../public/assets/icons8-spinner.gif") center
-    no-repeat;
-  background-size: 3.125rem 3.125rem;
-}
-
 .about-table {
   padding-left: 2.5rem;
+  margin-left: 1rem;
 }
 
 .about-table th {
@@ -39,22 +33,39 @@
   padding-right: 1.875rem;
 }
 
+.about-table td {
+  padding-left: 1rem;
+}
+
 @media (max-width: 900px) {
   .about {
     flex-direction: column;
-    width: 22rem;
+    width: fit-content;
     height: auto;
-    font-size: 1rem;
+    font-size: 1.2rem;
     margin-top: 3rem;
+    align-items: unset;
+    padding: .3125rem;
+  }
+  .image {
+    margin: auto;
   }
   .about-table {
     padding: 0;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    margin-left: 0;
+  }
+  .about th {
+    padding-right: .3125rem;
   }
 }
 
 @media (max-width: 600px) {
   .about {
-    width: 20rem;
-    font-size: 0.9rem;
+    width: 90%;
+    font-size: 1.1rem;
+    margin-left: 2%;
+    padding: 0;
   }
 }

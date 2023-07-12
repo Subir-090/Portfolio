@@ -22,6 +22,12 @@ body {
   background-color: #ABC4AA;
 }
 
+.loading {
+  background: rgb(196, 195, 195) url("../public/assets/icons8-spinner.gif") center
+    no-repeat;
+  background-size: 3.125rem 3.125rem;
+}
+
 @media (max-width: 800px) {
   html {
     font-size: 96%;

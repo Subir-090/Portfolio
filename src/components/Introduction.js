@@ -35,7 +35,7 @@ const Introduction = () => {
         <img
           src="https://shorturl.at/nwQ06"
           alt="profile-img"
-          className="profile"
+          className="profile loading"
         />
       </div>
     </div>
