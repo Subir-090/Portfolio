@@ -4,8 +4,9 @@ import Navbar from "react-bootstrap/Navbar";
 import { NavLink } from "react-router-dom";
 import Image from "react-bootstrap/Image";
 import "./Navbar.css";
+import { memo } from "react";
 
-function NavScrollExample() {
+const NavBar = memo(function NavBar() {
   return (
     <Navbar expand="lg" className="navbar-styles" sticky="top" collapseOnSelect>
       <Container fluid>
@@ -76,6 +77,6 @@ function NavScrollExample() {
       </Container>
     </Navbar>
   );
-}
+});
 
-export default NavScrollExample;
+export default NavBar;

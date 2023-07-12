@@ -1,6 +1,7 @@
+import { memo } from "react";
 import "./Work.css";
 
-const Work = () => {
+const Work = memo(() => {
   return (
     <div className="work">
       <section className="skills">
@@ -15,7 +16,6 @@ const Work = () => {
                     height="40"
                     src="https://img.icons8.com/color/40/c-plus-plus-logo.png"
                     alt="c-plus-plus-logo"
-                    loading="lazy"
                   />
                 </div>
                 C++
@@ -29,7 +29,6 @@ const Work = () => {
                     height="38"
                     src="https://img.icons8.com/color/38/javascript--v1.png"
                     alt="javascript--v1"
-                    loading="lazy"
                   />
                 </div>
                 Javascript
@@ -43,7 +42,6 @@ const Work = () => {
                     height="40"
                     src="https://img.icons8.com/bubbles/40/react.png"
                     alt="react"
-                    loading="lazy"
                   />
                 </div>
                 React Js
@@ -59,7 +57,6 @@ const Work = () => {
                     height="39"
                     src="https://img.icons8.com/fluency/39/node-js.png"
                     alt="node-js"
-                    loading="lazy"
                   />
                 </div>
                 Node Js
@@ -73,7 +70,6 @@ const Work = () => {
                     height="38"
                     src="https://img.icons8.com/color/38/html-5--v1.png"
                     alt="html-5--v1"
-                    loading="lazy"
                   />
                 </div>
                 HTML
@@ -87,7 +83,6 @@ const Work = () => {
                     height="38"
                     src="https://img.icons8.com/color/38/mongodb.png"
                     alt="mongodb"
-                    loading="lazy"
                   />
                 </div>
                 MongoDB
@@ -103,7 +98,6 @@ const Work = () => {
                     height="38"
                     src="https://img.icons8.com/color/38/css3.png"
                     alt="css3"
-                    loading="lazy"
                   />
                 </div>
                 CSS
@@ -117,7 +111,6 @@ const Work = () => {
                     height="30"
                     src="https://img.icons8.com/ios-filled/30/jquery.png"
                     alt="jquery"
-                    loading="lazy"
                   />
                 </div>
                 jQuery
@@ -131,7 +124,6 @@ const Work = () => {
                     height="38"
                     src="https://img.icons8.com/external-bearicons-blue-bearicons/38/external-SQL-file-extension-bearicons-blue-bearicons.png"
                     alt="external-SQL-file-extension-bearicons-blue-bearicons"
-                    loading="lazy"
                   />
                 </div>
                 SQL
@@ -182,6 +174,6 @@ const Work = () => {
       </section>
     </div>
   );
-};
+});
 
 export default Work;

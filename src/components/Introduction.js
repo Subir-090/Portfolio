@@ -1,8 +1,8 @@
 import "./Introduction.css";
 import Typed from "typed.js";
-import { useEffect, useRef } from "react";
+import { memo, useEffect, useRef } from "react";
 
-const Introduction = () => {
+const Introduction = memo(() => {
   const el = useRef("");
 
   useEffect(() => {
@@ -40,6 +40,6 @@ const Introduction = () => {
       </div>
     </div>
   );
-};
+});
 
 export default Introduction;

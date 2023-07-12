@@ -1,6 +1,7 @@
+import { memo } from "react";
 import "./About.css";
 
-const About = () => {
+const About = memo(() => {
   return (
     <div className="about">
       <div className="image loading">
@@ -22,7 +23,7 @@ const About = () => {
           </tr>
           <tr>
             <th>Contact Number</th>
-            <td>N.A.</td>
+            <td>Not disclosed</td>
           </tr>
           <tr>
             <th>Email Id</th>
@@ -36,6 +37,6 @@ const About = () => {
       </table>
     </div>
   );
-};
+});
 
 export default About;
