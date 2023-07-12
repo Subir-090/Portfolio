@@ -47,6 +47,9 @@
         margin-top: .625rem;
         text-align: center;
     }
+    .introduction {
+        height: 28rem;
+    }
 }
 
 @media (max-width: 600px) {

@@ -7,7 +7,7 @@ import "./Navbar.css";
 
 function NavScrollExample() {
   return (
-    <Navbar expand="lg" className="navbar-styles" fixed="top" collapseOnSelect>
+    <Navbar expand="lg" className="navbar-styles" sticky="top" collapseOnSelect>
       <Container fluid>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">

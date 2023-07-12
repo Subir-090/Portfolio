@@ -64,6 +64,10 @@
   margin-top: 1.25rem;
 }
 
+.experience h2, h3{
+  font-size: 1.5rem;
+}
+
 @media (max-width: 900px) {
   .list {
     flex-direction: column;
@@ -74,11 +78,24 @@
   }.work-demo {
     width: 100%;
   }
+  .content {
+    font-size: 1.2rem;
+  }
+  .experience h2, h3{
+    font-size: 1.3rem;
+  }
 }
 
 @media (max-width: 780px) {
   .work {
     margin-left: 1%;
     width: 90%;
+    
+  }
+  .content {
+    font-size: 1.15rem;
+  }
+  .experience h2, h3{
+    font-size: 1.2rem;
   }
 }
