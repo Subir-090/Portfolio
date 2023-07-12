@@ -24,30 +24,30 @@ body {
 
 @media (max-width: 800px) {
   html {
-    font-size: 98%;
+    font-size: 96%;
   }
 }
 
 @media (max-width: 700px) {
   html {
-    font-size: 96%;
+    font-size: 92%;
   }
 }
 
 @media (max-width: 600px) {
   html {
-    font-size: 94%;
+    font-size: 88%;
   }
 }
 
 @media (max-width: 500px) {
   html {
-    font-size: 92%;
+    font-size: 84%;
   }
 }
 
 @media (max-width: 400px) {
   html {
-    font-size: 90%;
+    font-size: 80%;
   }
 }
